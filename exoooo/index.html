@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <meta name="description" title="exercice" content="exercice" >
+    <title>Exo html/bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    <form action="http://bienvu.net/script.php" method="GET" id="formulaire_info">
+        <fieldset>
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" id="nom"  class="form-control" placeholder="Votre nom" required>
+        <br>
+            
+            <label for="nom">Prénom:</label>
+            <input type="text" name="prenom" id="prenom"  class="form-control" placeholder="Votre prénom" required>
+        <br>    
+            <label for="sujet">Sexe:</label>
+            <select class="form-control" name="sexe" id="sexe" required size="1">
+                <option value="" selected disabled>Sélectionner</option>
+                <option value="masculin">Masculin</option>
+                <option value="feminin">Féminin</option>
+            </select>
+        <br>    
+            <label for="email">Email:</label>
+            <input class="form-control" type="email" name="email" id="email" placeholder="nom@exemple.com">
+        <br>
+            <label for="nom">Mot de passe</label>
+            <input type="password" name="mdp" id="mdp"  class="form-control" required>
+        <br>
+            <input type="checkbox" name="accept" value="accept" id="accept" required>
+            <label for="accept">J'accepte les conditions</label>    
+        <br>
+            <input class="btn btn-primary" type="submit" value="Envoyer">    
+        </fieldset>
+    </form>
+    </div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

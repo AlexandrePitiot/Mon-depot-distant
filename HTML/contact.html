@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" title="Nous contacter" content="contact" >
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="index.html"><img  id="promo" src="image/jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou" width="200" height="60"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+            <li><a href="tableau.html" title="Aller au tableau">Tableau</a></li>
+            <li><a href="contact.html" title="Nous contacter">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <img src="image/promotion.jpg" alt="promotion" title="promotion" width="100%">
+        <h1>Contact</h1>
+        <hr>
+        <p>* C'est zone sont obligatoires</p>
+    <form action="http://bienvu.net/script.php" method="GET" id="formulaire_info">
+        <fieldset>
+            <legend>Vos coordonées</legend>
+            <label for="nom">Votre nom *: </label>
+            <input type="text" name="nom" id="nom" required>
+        <br>
+            <label for="prenom">Votre prénom *: </label>
+            <input type="text" name="prenom" id="prenom" required>
+        <br>
+            <label for="sexe">Sexe* :</label>
+            <input type="radio" name="sexe" value="feminin">Féminin 
+            <input type="radio" name="sexe" id="sexe" value="masculin">Masculin
+        <br>
+        <br>
+            <label for="date">Date de naissance* :</label>
+            <input type="date" name="ddn" id="date" required>
+        <br>
+            <label for="code_postal">Code postal * :</label>
+            <input type="text" name="code_postal" id="code_postal" required> 
+        <br>    
+            <label for="ville">Ville :</label>
+            <input type="text" name="ville" id="ville">
+        <br>
+            <label for="email">Email * :</label>
+            <input type="text" name="email" id="email" placeholder="dave.loper@afpa.fr">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Votre demande</legend>
+            <label for="sujet">Sujet* :</label>
+            <select name="sujet" id="sujet" required size="1">
+                <option value="" selected disabled>Veuillez séléctionner un sujet</option>
+                <option value="mes_commandes">Mes commandes</option>
+                <option value="question_produit">Question sur un produit</option>
+                <option value="reclamation">Réclamation</option>
+                <option value="autres">Autres</option>
+            </select>
+            <br>
+            <label for="question">Votre question * :</label>
+            <textarea name="question" id="question" cols="20" rows="2" required></textarea>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="accept" value="accept" id="accept" required>
+        <label for="accept">* J'accepte le traitement informatique de ce formulaire</label>
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+        <button type="reset"> Annuler</button> 
+    </form>
+    </section>
+    <br>
+    <footer id="header">
+        <ul>
+            <li><a href="" title="mention legal">Mention légales</a></li>
+            <li><a href="" title="Horaires">Horaires</a></li>
+            <li><a href="" title="plan du site">Plan du site</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
