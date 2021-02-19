@@ -1,14 +1,14 @@
 //ce programme demande la saisie du prix unitaire  d'un produit et de la quantité commandée, puis affichera le prix à payer , en détaillant la remise et le montant des frais de ports.
 var pu , qtecom, pap, rem, port, tot, rem2
-pu= parseInt(prompt("prix unitaire"));
-qtecom= parseInt(prompt("quantité"));
+pu= parseInt(prompt("indiquer le prix du produit selectionné"));
+qtecom= parseInt(prompt("indiquer la quantité de produit selectionné"));
 port = 0;
 tot = (pu*qtecom);
 
 if (tot>=100 && tot<=200) {
     rem=(tot*5)/100;
     rem2=("5%")
-    tot= tot-rem;
+    tot= tot-rem; // Si le total est compris entre 100 et 200 alors la remise sera de 5 %, 
 }    
     else if (tot>200){
         rem=(tot*10)/100;
