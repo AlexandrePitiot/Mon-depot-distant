@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T12:57:43.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_qi0Btu4E7H8pjXwwled" version="14.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-18T13:01:31.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Z0-V2qfbtRERKQuJh3Ga" version="14.4.8" type="github" pages="3">
   <diagram id="hBPqvgBfnFxyGL7l_P_D" name="cas utilisation">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-10" value="achat nouveau doc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="210" width="80" height="50" as="geometry" />
+          <mxGeometry x="160" y="150" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-12" value="inscription des lecteurs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="320" width="90" height="40" as="geometry" />
@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-30" value="Enregistrer un nouveau document" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="255" y="130" width="125" height="70" as="geometry" />
+          <mxGeometry x="300" y="90" width="125" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.991;exitY=0.397;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tTAMLee8XRwoUaysmFKz-10" target="tTAMLee8XRwoUaysmFKz-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -77,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-39" value="mettre hors service un doc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="636" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-40" value="consulter état lecteur" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="341" y="260" width="120" height="80" as="geometry" />
@@ -133,7 +133,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-54" value="&lt;span&gt;génération d&#39;une fiche de document&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="461" y="50" width="110" height="80" as="geometry" />
+          <mxGeometry x="480" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tTAMLee8XRwoUaysmFKz-55" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.942;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.083;entryY=0.759;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tTAMLee8XRwoUaysmFKz-30" target="tTAMLee8XRwoUaysmFKz-54" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -160,6 +160,30 @@
             <Array as="points">
               <mxPoint x="20" y="290" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIyQWB7gHzmCILSo6ATd-1" value="Consultation document" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SIyQWB7gHzmCILSo6ATd-2" value="modification document" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SIyQWB7gHzmCILSo6ATd-4" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SIyQWB7gHzmCILSo6ATd-1" target="SIyQWB7gHzmCILSo6ATd-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="150" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIyQWB7gHzmCILSo6ATd-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.975;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SIyQWB7gHzmCILSo6ATd-2" target="tTAMLee8XRwoUaysmFKz-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="150" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIyQWB7gHzmCILSo6ATd-6" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tTAMLee8XRwoUaysmFKz-2" target="SIyQWB7gHzmCILSo6ATd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="180" as="sourcePoint" />
+            <mxPoint x="440" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
