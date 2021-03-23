@@ -1,18 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T15:39:55.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BV2P57t5aEApEWIQ2oGs" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T16:07:57.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TCNF56sZYi0R-ApY3avT" version="14.5.0" type="github">
   <diagram id="MZrCVbKPcxjubLTzTXuE" name="Page-1">
-    <mxGraphModel dx="1564" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bp1Jh9y0F7wbUH62DtqD-1" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="100" width="40" height="700" as="geometry" />
-        </mxCell>
-        <mxCell id="bp1Jh9y0F7wbUH62DtqD-7" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="bp1Jh9y0F7wbUH62DtqD-1" source="bp1Jh9y0F7wbUH62DtqD-2">
-          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="-340" y="100" as="sourcePoint" />
-            <mxPoint x="19.5" y="100" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-1" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="40" height="720" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="80" width="20" height="720" as="geometry" />
@@ -101,7 +94,7 @@
           <mxGeometry x="309" y="370" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-23" value="8. Le système demande si l&#39;utilisateur veut continuer ses achats ou valider le panier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="410" width="460" height="20" as="geometry" />
+          <mxGeometry x="240" y="410" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-24" value="9.&amp;nbsp; L&#39;utilisateur clique sur valider le panier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="309" y="450" width="240" height="20" as="geometry" />
@@ -139,13 +132,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-35" value="12. Le système de confirmer les informations de livraison et de facturation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="574.5" width="410" height="20" as="geometry" />
+          <mxGeometry x="310" y="574.5" width="410" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-36" value="13. L&#39;utilisateur confirme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="374" y="610" width="150" height="20" as="geometry" />
+          <mxGeometry x="310" y="610" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-37" value="14. Le système demande les informations de paiement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="650" width="310" height="20" as="geometry" />
+          <mxGeometry x="310" y="650" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-38" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
@@ -154,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-39" value="15. L&#39;utilisateur rempli et valide le formulaire&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="690" width="250" height="20" as="geometry" />
+          <mxGeometry x="314" y="690" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-40" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
@@ -164,7 +157,159 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-41" value="16. Le système envoie une confirmation puis renvoie l&#39;utilisateur à l&#39;accueil" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="730" width="410" height="20" as="geometry" />
+          <mxGeometry x="314" y="730" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-7" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1" source="bp1Jh9y0F7wbUH62DtqD-2" target="bp1Jh9y0F7wbUH62DtqD-1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="769.5" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-42" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="920" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-43" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="910" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-44" value="Scénario alternatif : l&#39;utilisateur n&#39;est pas inscrit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-45" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1" source="bp1Jh9y0F7wbUH62DtqD-42" target="bp1Jh9y0F7wbUH62DtqD-43">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="360" y="1010" as="sourcePoint" />
+            <mxPoint x="770" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1000" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-46" value="11.1 L&#39;utilisateur clique sur s&#39;inscrire&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="970" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-47" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="134.37000000000012" y="1040" as="sourcePoint" />
+            <mxPoint x="763.6200000000003" y="1040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-48" value="11.2 Le système affiche un formulaire d&#39;inscription&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1010" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-49" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="139.78142857142868" y="1080" as="sourcePoint" />
+            <mxPoint x="770.21" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720.71" y="1080" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-50" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="140.3800000000001" y="1120" as="sourcePoint" />
+            <mxPoint x="769.6300000000003" y="1120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-51" value="11.3 L&#39;utilisateur remplit et valide le formulaire&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1050" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-52" value="11.4 Le système valide et demande la confirmation de la livraison et de la facturation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1100" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-53" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1330" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-54" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1320" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-55" value="Scénario alternatif : l&#39;utilisateur modifie informations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1300" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-56" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1" source="bp1Jh9y0F7wbUH62DtqD-53" target="bp1Jh9y0F7wbUH62DtqD-54">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="360" y="1420" as="sourcePoint" />
+            <mxPoint x="770" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1410" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-57" value="13.1 L&#39;utilisateur clique sur modifier les informations&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1380" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-58" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="134.37000000000012" y="1450" as="sourcePoint" />
+            <mxPoint x="763.6200000000003" y="1450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-59" value="13.2 Le système affiche un formulaire pour changer les informations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1420" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-60" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="139.7814285714287" y="1490" as="sourcePoint" />
+            <mxPoint x="770.2100000000003" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720.71" y="1490" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-61" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="140.3800000000001" y="1530" as="sourcePoint" />
+            <mxPoint x="769.6300000000003" y="1530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-62" value="13.3&amp;nbsp; L&#39;utilisateur renseigne ses nouvelles informations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1460" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-63" value="13.4 Le système envoie une confirmation et demande les informations de paiement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1510" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-65" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1690" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-66" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1680" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-67" value="Scénario alternatif : le paiement est refusé" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1660" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-69" value="16.1 Le système&amp;nbsp; renvoie une erreur dans le paiement et demande une vérification des données" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="1740" width="530" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-70" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="134.37000000000012" y="1760" as="sourcePoint" />
+            <mxPoint x="770" y="1760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-71" value="16.2 L&#39;utilisateur corrige et valide le formulaire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1780" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-72" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="139.7814285714287" y="1800" as="sourcePoint" />
+            <mxPoint x="770.2100000000003" y="1800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720.71" y="1800" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
