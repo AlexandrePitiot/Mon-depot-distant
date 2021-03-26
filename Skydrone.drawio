@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T08:19:17.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Xk6Qe7DbWGD9uyrc2OJG" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T09:32:58.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="U-KLCQH4QIwpJ6Rnz_CJ" version="14.5.1" type="github">
   <diagram id="MZrCVbKPcxjubLTzTXuE" name="Page-1">
-    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,8 +285,8 @@
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-66" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="1680" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="bp1Jh9y0F7wbUH62DtqD-67" value="Scénario alternatif : le paiement est refusé" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="1660" width="240" height="20" as="geometry" />
+        <mxCell id="bp1Jh9y0F7wbUH62DtqD-67" value="&lt;b&gt;&lt;u&gt;Scénario alternatif : le paiement est refusé&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1660" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bp1Jh9y0F7wbUH62DtqD-69" value="16.1 Le système&amp;nbsp; renvoie une erreur dans le paiement et demande une vérification des données" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="184" y="1740" width="530" height="20" as="geometry" />
@@ -434,8 +434,8 @@
         <mxCell id="WXvjH9I04tcjTVUaUVk6-33" value="8.3 L&#39;utilisateur peut sélectionner d&#39;autre produit à rajouter au panier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="2820" width="380" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FsZHeZZL7pEjZ1U_OA7q-1" value="Scénario principal relationnel modification produit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="3180" width="280" height="20" as="geometry" />
+        <mxCell id="FsZHeZZL7pEjZ1U_OA7q-1" value="&lt;b&gt;&lt;u&gt;Scénario principal relationnel modification produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="3180" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FsZHeZZL7pEjZ1U_OA7q-2" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" parent="1" vertex="1">
           <mxGeometry x="705" y="3240" width="40" height="720" as="geometry" />
@@ -652,11 +652,125 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-14" value="9.6 Le système valide et met à jour&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="4280" width="200" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-14" value="9.6 Le système valide et met à jour les modification, puis renvoie l&#39;employé à la page des produits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="4280" width="530" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-15" value="Scénario alternatif : modification stock produit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="4010" width="260" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-15" value="&lt;b&gt;&lt;u&gt;Scénario alternatif : modification stock produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="4010" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-29" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="75" y="4520" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-30" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="4520" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-31" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="87.21000000000004" y="4600" as="sourcePoint" />
+            <mxPoint x="717.21" y="4600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="667.71" y="4600" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-32" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="82.08000000000015" y="4640" as="sourcePoint" />
+            <mxPoint x="711.3300000000004" y="4640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-33" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="87.49142857142874" y="4680" as="sourcePoint" />
+            <mxPoint x="717.9200000000003" y="4680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="668.4200000000001" y="4680" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-34" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="88.09000000000015" y="4720" as="sourcePoint" />
+            <mxPoint x="717.3400000000004" y="4720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-39" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="85" y="4760" as="sourcePoint" />
+            <mxPoint x="715" y="4760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665.5" y="4760" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-41" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="79.37000000000012" y="4800" as="sourcePoint" />
+            <mxPoint x="708.6200000000003" y="4800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-43" value="&lt;b&gt;&lt;u&gt;Scénario principal commercial&amp;nbsp;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="4460" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-44" value="&lt;span id=&quot;docs-internal-guid-6435c943-7fff-23ce-6d1e-ae78eb264e7c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1 Le commercial clique sur se connecter&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="4570" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-45" value="&lt;span id=&quot;docs-internal-guid-dbeb643f-7fff-4fda-405a-bcc478cb8ca2&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;2 Le système affiche un pop up de connexion &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="4610" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-46" value="&lt;span id=&quot;docs-internal-guid-f1bb5b82-7fff-8294-751c-4283eeef9c78&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;3 Le commercial entre ses identifiants et se connecte&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="4650" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-47" value="&lt;span id=&quot;docs-internal-guid-2e74d201-7fff-b919-bc17-14a2e3f4d671&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;4 Le système affiche un menu comprenant la gestion des clients et la gestion des commandes&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="4690" width="520" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-48" value="&lt;span id=&quot;docs-internal-guid-f3a622f0-7fff-2f7f-75cc-0ac50752af70&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5 Le commercial clique sur Gestion des clients&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4730" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-49" value="&lt;span id=&quot;docs-internal-guid-634f3aec-7fff-8707-4c8c-a0fde37de9b1&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;6 Le système affiche une page avec un formulaire de recherche &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="4770" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-50" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="83.29000000000003" y="4840" as="sourcePoint" />
+            <mxPoint x="713.2900000000001" y="4840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="663.7900000000001" y="4840" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-51" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="78.16000000000015" y="4880" as="sourcePoint" />
+            <mxPoint x="707.4100000000004" y="4880" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-52" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="83.57142857142874" y="4920" as="sourcePoint" />
+            <mxPoint x="714.0000000000003" y="4920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="664.5000000000001" y="4920" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-54" value="&lt;span id=&quot;docs-internal-guid-ed28de8a-7fff-3188-a8d7-902e0c76d865&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;7 Le commercial rentre le nom du client qu’il souhaite consulter&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="4810" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-55" value="&lt;span id=&quot;docs-internal-guid-dd871f4d-7fff-89e0-083f-a381e7d25c57&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;8 Le système affiche la fiche client que le commercial recherche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="4850" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-56" value="&lt;span id=&quot;docs-internal-guid-e2140395-7fff-ca39-a4ef-42c8fc42d599&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9 Le commercial peut consulter les informations du client et les modifier en cliquant sur modifier la fiche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="4890" width="560" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
