@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T13:56:47.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3te4ftjtR5Nidy9xoJ_f" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T14:14:39.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Usn6t-6pNRt2bsPKuUV4" version="14.5.3" type="github">
   <diagram id="MZrCVbKPcxjubLTzTXuE" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -932,7 +932,7 @@
           <mxGeometry x="265" y="5900" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cBmRxauaOnduD68XcFDh-1" value="&lt;span id=&quot;docs-internal-guid-4cabaf25-7fff-0a3d-49a5-3a8bbe94e1ea&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;Scénario alternatif commercial bon de livraison&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="6610" width="290" height="40" as="geometry" />
+          <mxGeometry x="290" y="6650" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cBmRxauaOnduD68XcFDh-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
           <mxGeometry x="90" y="6680" width="20" height="510" as="geometry" />
