@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T09:32:58.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="U-KLCQH4QIwpJ6Rnz_CJ" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T09:14:14.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="L-nllag_JfzH5lwtKhri" version="14.5.3" type="github">
   <diagram id="MZrCVbKPcxjubLTzTXuE" name="Page-1">
-    <mxGraphModel dx="652" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,8 +434,8 @@
         <mxCell id="WXvjH9I04tcjTVUaUVk6-33" value="8.3 L&#39;utilisateur peut sélectionner d&#39;autre produit à rajouter au panier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="2820" width="380" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FsZHeZZL7pEjZ1U_OA7q-1" value="&lt;b&gt;&lt;u&gt;Scénario principal relationnel modification produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="3180" width="300" height="20" as="geometry" />
+        <mxCell id="FsZHeZZL7pEjZ1U_OA7q-1" value="&lt;b&gt;&lt;u&gt;Scénario principal relationnel/fournisseur modification produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="3180" width="370" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FsZHeZZL7pEjZ1U_OA7q-2" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" parent="1" vertex="1">
           <mxGeometry x="705" y="3240" width="40" height="720" as="geometry" />
@@ -580,13 +580,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" parent="1" vertex="1">
           <mxGeometry x="80" y="4030" width="20" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-2" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-2" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="4030" width="40" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-3" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-3" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
             <mxPoint x="92.21000000000004" y="4110" as="sourcePoint" />
             <mxPoint x="722.21" y="4110" as="targetPoint" />
@@ -596,14 +596,14 @@
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-4" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-4" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
             <mxPoint x="87.08000000000015" y="4150" as="sourcePoint" />
             <mxPoint x="716.3300000000004" y="4150" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-5" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-5" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
             <mxPoint x="92.49142857142874" y="4190" as="sourcePoint" />
             <mxPoint x="722.9200000000003" y="4190" as="targetPoint" />
@@ -613,26 +613,26 @@
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-6" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-6" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
             <mxPoint x="93.09000000000015" y="4230" as="sourcePoint" />
             <mxPoint x="722.3400000000004" y="4230" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-7" value="9.1 l&#39;employé clique sur mettre à jour le stock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-7" value="9.1 l&#39;employé clique sur mettre à jour le stock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="284" y="4082" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-8" value="9.2 Le système affiche le détail des stock produit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-8" value="9.2 Le système affiche le détail des stock produit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="4120" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-9" value="9.3 L&#39;employé clique sur modifier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-9" value="9.3 L&#39;employé clique sur modifier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="4160" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-10" value="9.4 Le système affiche un formulaire de modification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-10" value="9.4 Le système affiche un formulaire de modification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="4200" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-11" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-11" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
             <mxPoint x="90" y="4270" as="sourcePoint" />
             <mxPoint x="720" y="4270" as="targetPoint" />
@@ -642,135 +642,294 @@
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-12" value="9.5 L&#39;employé remplit les champs qu&#39;il souhaite modifier puis valide" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-12" value="9.5 L&#39;employé remplit les champs qu&#39;il souhaite modifier puis valide" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="4240" width="370" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-13" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-13" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
             <mxPoint x="84.37000000000012" y="4310" as="sourcePoint" />
             <mxPoint x="713.6200000000003" y="4310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-14" value="9.6 Le système valide et met à jour les modification, puis renvoie l&#39;employé à la page des produits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-14" value="9.6 Le système valide et met à jour les modification, puis renvoie l&#39;employé à la page des produits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="4280" width="530" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-15" value="&lt;b&gt;&lt;u&gt;Scénario alternatif : modification stock produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-15" value="&lt;b&gt;&lt;u&gt;Scénario alternatif : modification stock produit&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="274" y="4010" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-29" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
-          <mxGeometry x="75" y="4520" width="20" height="510" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-29" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" parent="1" vertex="1">
+          <mxGeometry x="75" y="4690" width="20" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-30" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="695" y="4520" width="40" height="500" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-30" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="695" y="4690" width="40" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-31" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-31" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
-            <mxPoint x="87.21000000000004" y="4600" as="sourcePoint" />
-            <mxPoint x="717.21" y="4600" as="targetPoint" />
+            <mxPoint x="87.21000000000004" y="4770" as="sourcePoint" />
+            <mxPoint x="717.21" y="4770" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="667.71" y="4600" />
+              <mxPoint x="667.71" y="4770" />
             </Array>
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-32" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-32" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="82.08000000000015" y="4640" as="sourcePoint" />
-            <mxPoint x="711.3300000000004" y="4640" as="targetPoint" />
+            <mxPoint x="82.08000000000015" y="4810" as="sourcePoint" />
+            <mxPoint x="711.3300000000004" y="4810" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-33" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-33" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
-            <mxPoint x="87.49142857142874" y="4680" as="sourcePoint" />
-            <mxPoint x="717.9200000000003" y="4680" as="targetPoint" />
+            <mxPoint x="87.49142857142874" y="4850" as="sourcePoint" />
+            <mxPoint x="717.9200000000003" y="4850" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="668.4200000000001" y="4680" />
+              <mxPoint x="668.4200000000001" y="4850" />
             </Array>
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-34" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-34" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="88.09000000000015" y="4720" as="sourcePoint" />
-            <mxPoint x="717.3400000000004" y="4720" as="targetPoint" />
+            <mxPoint x="88.09000000000015" y="4890" as="sourcePoint" />
+            <mxPoint x="717.3400000000004" y="4890" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-39" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-39" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
-            <mxPoint x="85" y="4760" as="sourcePoint" />
-            <mxPoint x="715" y="4760" as="targetPoint" />
+            <mxPoint x="85" y="4930" as="sourcePoint" />
+            <mxPoint x="715" y="4930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="665.5" y="4760" />
+              <mxPoint x="665.5" y="4930" />
             </Array>
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-41" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-41" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="79.37000000000012" y="4800" as="sourcePoint" />
-            <mxPoint x="708.6200000000003" y="4800" as="targetPoint" />
+            <mxPoint x="79.37000000000012" y="4970" as="sourcePoint" />
+            <mxPoint x="708.6200000000003" y="4970" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-43" value="&lt;b&gt;&lt;u&gt;Scénario principal commercial&amp;nbsp;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="4460" width="190" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-43" value="&lt;b&gt;&lt;u&gt;Scénario principal commercial&amp;nbsp;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="4620" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-44" value="&lt;span id=&quot;docs-internal-guid-6435c943-7fff-23ce-6d1e-ae78eb264e7c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1 Le commercial clique sur se connecter&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="4570" width="230" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-44" value="&lt;span id=&quot;docs-internal-guid-6435c943-7fff-23ce-6d1e-ae78eb264e7c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1 Le commercial clique sur se connecter&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="274" y="4740" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-45" value="&lt;span id=&quot;docs-internal-guid-dbeb643f-7fff-4fda-405a-bcc478cb8ca2&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;2 Le système affiche un pop up de connexion &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="4610" width="260" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-45" value="&lt;span id=&quot;docs-internal-guid-dbeb643f-7fff-4fda-405a-bcc478cb8ca2&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;2 Le système affiche un pop up de connexion &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="4780" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-46" value="&lt;span id=&quot;docs-internal-guid-f1bb5b82-7fff-8294-751c-4283eeef9c78&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;3 Le commercial entre ses identifiants et se connecte&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="4650" width="300" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-46" value="&lt;span id=&quot;docs-internal-guid-f1bb5b82-7fff-8294-751c-4283eeef9c78&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;3 Le commercial entre ses identifiants et se connecte&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="4820" width="300" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-47" value="&lt;span id=&quot;docs-internal-guid-2e74d201-7fff-b919-bc17-14a2e3f4d671&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;4 Le système affiche un menu comprenant la gestion des clients et la gestion des commandes&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="4690" width="520" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-47" value="&lt;span id=&quot;docs-internal-guid-2e74d201-7fff-b919-bc17-14a2e3f4d671&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;4 Le système affiche un menu comprenant la gestion des clients et la gestion des commandes&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="4860" width="520" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-48" value="&lt;span id=&quot;docs-internal-guid-f3a622f0-7fff-2f7f-75cc-0ac50752af70&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5 Le commercial clique sur Gestion des clients&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="4730" width="260" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-48" value="&lt;span id=&quot;docs-internal-guid-f3a622f0-7fff-2f7f-75cc-0ac50752af70&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5 Le commercial clique sur Gestion des clients&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="4900" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-49" value="&lt;span id=&quot;docs-internal-guid-634f3aec-7fff-8707-4c8c-a0fde37de9b1&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;6 Le système affiche une page avec un formulaire de recherche &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="4770" width="350" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-49" value="&lt;span id=&quot;docs-internal-guid-634f3aec-7fff-8707-4c8c-a0fde37de9b1&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;6 Le système affiche une page avec un formulaire de recherche &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="4940" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-50" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-50" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
-            <mxPoint x="83.29000000000003" y="4840" as="sourcePoint" />
-            <mxPoint x="713.2900000000001" y="4840" as="targetPoint" />
+            <mxPoint x="83.29000000000003" y="5010" as="sourcePoint" />
+            <mxPoint x="713.2900000000001" y="5010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="663.7900000000001" y="4840" />
+              <mxPoint x="663.7900000000001" y="5010" />
             </Array>
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-51" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-51" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" parent="1" edge="1">
           <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="78.16000000000015" y="4880" as="sourcePoint" />
-            <mxPoint x="707.4100000000004" y="4880" as="targetPoint" />
+            <mxPoint x="78.16000000000015" y="5050" as="sourcePoint" />
+            <mxPoint x="707.4100000000004" y="5050" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-52" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-52" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
-            <mxPoint x="83.57142857142874" y="4920" as="sourcePoint" />
-            <mxPoint x="714.0000000000003" y="4920" as="targetPoint" />
+            <mxPoint x="83.57142857142874" y="5090" as="sourcePoint" />
+            <mxPoint x="714.0000000000003" y="5090" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="664.5000000000001" y="4920" />
+              <mxPoint x="664.5000000000001" y="5090" />
             </Array>
             <mxPoint x="-50" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-54" value="&lt;span id=&quot;docs-internal-guid-ed28de8a-7fff-3188-a8d7-902e0c76d865&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;7 Le commercial rentre le nom du client qu’il souhaite consulter&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="224" y="4810" width="350" height="40" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-54" value="&lt;span id=&quot;docs-internal-guid-ed28de8a-7fff-3188-a8d7-902e0c76d865&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;7 Le commercial rentre le nom du client qu’il souhaite consulter&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="224" y="4980" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-55" value="&lt;span id=&quot;docs-internal-guid-dd871f4d-7fff-89e0-083f-a381e7d25c57&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;8 Le système affiche la fiche client que le commercial recherche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="219" y="4850" width="360" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-55" value="&lt;span id=&quot;docs-internal-guid-dd871f4d-7fff-89e0-083f-a381e7d25c57&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;8 Le système affiche la fiche client que le commercial recherche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="219" y="5020" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0nKY4ihg2E82EaFq8VoH-56" value="&lt;span id=&quot;docs-internal-guid-e2140395-7fff-ca39-a4ef-42c8fc42d599&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9 Le commercial peut consulter les informations du client et les modifier en cliquant sur modifier la fiche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="4890" width="560" height="20" as="geometry" />
+        <mxCell id="0nKY4ihg2E82EaFq8VoH-56" value="&lt;span id=&quot;docs-internal-guid-e2140395-7fff-ca39-a4ef-42c8fc42d599&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9 Le commercial peut consulter les informations du client et les modifier en cliquant sur modifier la fiche&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="5060" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-1" value="&lt;font style=&quot;font-size: 31px&quot;&gt;&lt;b&gt;Commercial&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="4480" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-42" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="75" y="5320" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-43" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="5320" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-44" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="87.21000000000004" y="5400" as="sourcePoint" />
+            <mxPoint x="717.21" y="5400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="667.71" y="5400" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-45" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="82.08000000000015" y="5440" as="sourcePoint" />
+            <mxPoint x="711.3300000000004" y="5440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-46" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="87.49142857142874" y="5480" as="sourcePoint" />
+            <mxPoint x="717.9200000000003" y="5480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="668.4200000000001" y="5480" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-47" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="88.09000000000015" y="5520" as="sourcePoint" />
+            <mxPoint x="717.3400000000004" y="5520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-50" value="&lt;span id=&quot;docs-internal-guid-6435c943-7fff-23ce-6d1e-ae78eb264e7c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9.1 Le commercial clique sur modifier la fiche client&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="5370" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-51" value="&lt;span id=&quot;docs-internal-guid-dbeb643f-7fff-4fda-405a-bcc478cb8ca2&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9.2 Le système affiche les détails de la fiche client et un formulaire de modification&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="5410" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-52" value="&lt;span id=&quot;docs-internal-guid-f1bb5b82-7fff-8294-751c-4283eeef9c78&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;9.3 Le commercial modifie les champs qu&#39;il souhaite puis clique sur mettre à jour&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="5450" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-53" value="&lt;font face=&quot;arial&quot;&gt;9.4 Le système valide les modifications puis redirige le commercial vers la page d&#39;accueil&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="5490" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-62" value="&lt;b&gt;&lt;u&gt;Scénario alternatif commercial modification fiche client&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="5300" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-83" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="90" y="5920" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-84" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="5920" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-85" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="102.21000000000004" y="6000" as="sourcePoint" />
+            <mxPoint x="732.21" y="6000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="682.71" y="6000" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-86" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="97.08000000000015" y="6040" as="sourcePoint" />
+            <mxPoint x="726.3300000000004" y="6040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-87" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="102.49142857142874" y="6080" as="sourcePoint" />
+            <mxPoint x="732.9200000000003" y="6080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="683.4200000000001" y="6080" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-88" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="103.09000000000015" y="6120" as="sourcePoint" />
+            <mxPoint x="732.3400000000004" y="6120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-89" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="100" y="6160" as="sourcePoint" />
+            <mxPoint x="730" y="6160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680.5" y="6160" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-90" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="94.37000000000012" y="6200" as="sourcePoint" />
+            <mxPoint x="723.6200000000003" y="6200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-91" value="&lt;span id=&quot;docs-internal-guid-6435c943-7fff-23ce-6d1e-ae78eb264e7c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.1 Le commercial clique sur Gestion des commandes&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="5970" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-92" value="&lt;span id=&quot;docs-internal-guid-dbeb643f-7fff-4fda-405a-bcc478cb8ca2&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.2 Le système affiche une page avec l&#39;historique des commandes avec numéro de commande, nom client..&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="6010" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-93" value="&lt;span id=&quot;docs-internal-guid-f1bb5b82-7fff-8294-751c-4283eeef9c78&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.3 Le commercial rentre le numéro de commande qu&#39;il souhaite dans le camps de recherche&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="6050" width="510" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-94" value="&lt;span id=&quot;docs-internal-guid-2e74d201-7fff-b919-bc17-14a2e3f4d671&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.4 Le système affiche la fiche commande correspondant à la recherche du commercial&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="6090" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-95" value="&lt;span id=&quot;docs-internal-guid-f3a622f0-7fff-2f7f-75cc-0ac50752af70&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.5 Le commercial clique sur modifier la commande&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="6130" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-96" value="&lt;span id=&quot;docs-internal-guid-634f3aec-7fff-8707-4c8c-a0fde37de9b1&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;5.6&amp;nbsp; Le système affiche un formulaire de modification&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="6170" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-97" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="71" width="60" relative="1" as="geometry">
+            <mxPoint x="98.29000000000008" y="6240" as="sourcePoint" />
+            <mxPoint x="728.29" y="6240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="678.7900000000001" y="6240" />
+            </Array>
+            <mxPoint x="-50" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-98" value="" style="html=1;verticalAlign=bottom;startArrow=block;startFill=1;endArrow=oval;startSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0014" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="93.1600000000002" y="6280" as="sourcePoint" />
+            <mxPoint x="722.4100000000003" y="6280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-100" value="&lt;span id=&quot;docs-internal-guid-ed28de8a-7fff-3188-a8d7-902e0c76d865&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;font face=&quot;arial&quot;&gt;5.7 Le commercial indique les modifications qu&#39;il souhaite puis clique sur Mettre à jour&lt;/font&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="6210" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-101" value="&lt;font face=&quot;arial&quot;&gt;5.8 Le système valide les modifications puis renvoie le commercial vers l&#39;historique des commandes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="6250" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7jdGHXc4GnESu2mGNcz3-103" value="&lt;b&gt;&lt;u&gt;Scénario alternatif commercial modification commande&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="5900" width="330" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
