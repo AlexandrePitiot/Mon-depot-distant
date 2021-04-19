@@ -1,0 +1,125 @@
+1) /* On affiche nos données en les extrayant du tableau Customers*/
+SELECT CompanyName AS ‘Société’, ContactName AS ‘Contact’, ContactTitle AS ‘Fonction’, Phone AS
+‘Téléphone’ FROM customers
+/* On conditionne la recherche en prenant uniquement le pays nommé « France »*/
+WHERE country LIKE 'France'
+
+
+2) /* On affiche les produits et leur prix du tableau Products */
+SELECT products.ProductName, products.UnitPrice FROM products
+/* On joint le tableau suppliers pour faire le lien avec le nom du client*/
+JOIN suppliers
+/* On fait la liaison entre les tableaux suppliers et products */
+ON suppliers.SupplierID = products.SupplierID
+/* On indique la condition du fournisseur Exotic Liquids*/
+WHERE suppliers.CompanyName = 'Exotic Liquids'
+
+3) /* On affiche en les renommant les fournisseurs et les produits en les dénombrant et en les extrayant de la 
+table suppliers*/
+SELECT CompanyName AS 'Fournisseurs', COUNT(DISTINCT ProductName) AS 'Nbre produits' FROM
+suppliers
+/* On y joint la table products pour faire appel à l’identifiant des fournisseurs */
+JOIN products
+/* On retrace les origines de l’identifiant entre les deux tableaux */
+ON suppliers.SupplierID = products.SupplierID
+/* On conditionne la recherche en prenant uniquement le pays nommé « France »*/
+WHERE Country LIKE 'France'
+/* On les regroupe avec la clause group by pour éviter les répétitions et les mettre dans l’ordre décroissant 
+avec DESC*/
+GROUP BY 1 ORDER BY COUNT(DISTINCT ProductName) DESC
+
+4) /* On sélectionne le nom des clients et le nombre des commandes*/
+SELECT CompanyName AS 'Client', COUNT(DISTINCT OrderID) AS 'Nbre commandes' FROM orders
+/* On y joint la table custosmers pour y joindre les coordonnées du client*/
+JOIN Customers
+ON orders.CustomerID = customers.CustomerID
+/* On conditionne le pays pour ne sélectionner que les français*/
+WHERE Country LIKE 'France'
+/* On les regroupe pour ensuite ne sélectionner que le nombre de commande supérieur à 10 */
+GROUP BY CompanyName
+HAVING COUNT(DISTINCT OrderID) > 10
+
+5) /* On sélectionne les clients, le chiffre d’affaire et le pays à afficher*/
+SELECT customers.CompanyName AS 'Client', SUM(order_details.UnitPrice*order_details.Quantity) AS 'CA', 
+customers.Country AS 'Pays' FROM order_details
+/* On y joint le tableau orders pour récupérer l’orderID et faire le lien avec les détails du client*/
+JOIN orders
+ON order_details.OrderID = orders.OrderID 
+JOIN customers
+ON orders.CustomerID = customers.CustomerID 
+/* On les regroupe*/
+GROUP BY 1, customers.Country
+/* On conditionne le chiffre d’affaires supérieur à 30.000 */
+HAVING SUM(order_details.UnitPrice*order_details.Quantity) > 30000
+/* On les organise par le chiffre d’affaires le plus élevé */
+ORDER BY SUM(order_details.UnitPrice*order_details.Quantity) DESC
+
+6)  Amiens DI Eval 02/07/2014 
+5 - Liste des clients ayant un chiffre d’affaires > 30.000 : 
+/* On sélectionne les clients, le chiffre d’affaire et le pays à afficher*/
+SELECT customers.CompanyName AS 'Client', SUM(order_details.UnitPrice*order_details.Quantity) AS 'CA', 
+customers.Country AS 'Pays' FROM order_details
+/* On y joint le tableau orders pour récupérer l’orderID et faire le lien avec les détails du client*/
+JOIN orders
+ON order_details.OrderID = orders.OrderID 
+JOIN customers
+ON orders.CustomerID = customers.CustomerID 
+/* On les regroupe*/
+GROUP BY 1, customers.Country
+/* On conditionne le chiffre d’affaires supérieur à 30.000 */
+HAVING SUM(order_details.UnitPrice*order_details.Quantity) > 30000
+/* On les organise par le chiffre d’affaires le plus élevé */
+ORDER BY SUM(order_details.UnitPrice*order_details.Quantity) DESC
+6 – Liste des pays dont les clients ont passé commande de produits fournis 
+par « Exotic Liquids » :afpa 
+©
+auteur centre formation Activité séq/item type doc Version page 5
+F.R.C. Amiens DI Eval 02/07/2014 
+/* On sélectionne les pays d’expédition des commandes*/
+SELECT ShipCountry AS 'Pays' FROM orders
+/* On y joint le tableau des détails de commande, de produits et des 
+fournisseurs*/
+JOIN order_details
+ON orders.OrderID = order_details.OrderID
+JOIN products
+ON order_details.ProductID = products.ProductID
+JOIN suppliers
+ON products.SupplierID = suppliers.SupplierID
+/* On a récupéré les données du fournisseur, on sélectionne Exotic Liquids */
+WHERE CompanyName LIKE 'Exotic Liquids'
+/* On les regroupe pour éviter les répétitions de ligne et on les organise par 
+ordre ascendant */
+GROUP BY 1
+ORDER BY `ShipCountry` ASC
+
+7) /* On calcule le montant en les sélectionnant et en les renommant dans le tableau du détail des commandes */
+SELECT SUM(order_details.UnitPrice*order_details.Quantity) AS 'Montant ventes 1997' FROM order_details
+/* On y joint le tableau orders pour récupérer le détail de la date*/
+JOIN orders
+ON order_details.OrderID = orders.OrderID
+WHERE OrderDate LIKE '%97%'
+
+8) /* On sélectionne uniquement le mois que l’on renomme, puis on calcule la somme des ventes issues du 
+tableau order details*/
+SELECT MONTH(OrderDate) AS 'Mois 97', SUM(order_details.UnitPrice*order_details.Quantity) AS 'Montant 
+ventes 1997' FROM order_details
+/* On joint le tableau orders pour récupérer la date des commandes */
+JOIN orders
+ON order_details.OrderID = orders.OrderID
+/* On conditionne les dates comprenant ‘97’ */
+WHERE OrderDate LIKE '%97%'
+/* On regroupe les mois pour n’obtenir qu’une liste de numéros */
+GROUP BY MONTH(OrderDate)
+
+9) /* On sélectionne la dernière date de commande du tableau commande */
+SELECT MAX(OrderDate) AS 'Date de dernière commande' FROM orders
+/* On joint le tableau customers pour récupérer le nom du client */
+JOIN customers
+ON orders.CustomerID = customers.CustomerID
+/* On conditionne le nom de la compagnie Du monde entier */
+WHERE CompanyName LIKE 'Du monde entier'
+
+10) /*On fait la différence entre le jour de livraison et le jour de commande, puis on en fait la moyenne, puis on 
+l’arrondit et on l’affiche*/
+SELECT ROUND (AVG (DATEDIFF(ShippedDate , OrderDate))) AS 'Délai moyen de livraison en jours'
+FROM orders
