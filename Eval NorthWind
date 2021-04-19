@@ -1,4 +1,4 @@
-II)
+I)
 1) /* On affiche nos données en les extrayant du tableau Customers*/
 SELECT CompanyName AS ‘Société’, ContactName AS ‘Contact’, ContactTitle AS ‘Fonction’, Phone AS
 ‘Téléphone’ FROM customers
