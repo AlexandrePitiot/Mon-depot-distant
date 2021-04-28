@@ -1,0 +1,42 @@
+html, body {
+    background: url("image/avatar.png")center no-repeat fixed,  linear-gradient(#77a1d3, #79cbca, #e684ae) fixed;
+    animation: gradient 15s ease infinite;
+    background-size: 50%;
+    height : 100%;
+}
+
+
+
+#top {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+
+
+button {
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    line-height: 0;
+    padding: 0 ;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #47A6E3;
+    color: white;
+
+}
+
+span {
+    padding: 10px 10px 10px 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to top, #e55d87, #5fc3e4);
+    color: white;
+    display: none;
+
+}
+div {
+    height: 100%;
+}
