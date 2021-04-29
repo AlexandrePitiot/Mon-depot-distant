@@ -3,6 +3,8 @@ html, body {
     animation: gradient 15s ease infinite;
     background-size: 50%;
     height : 100%;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 
@@ -10,6 +12,8 @@ html, body {
 #top {
     font-family: 'Raleway', sans-serif;
     color: white;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -40,3 +44,11 @@ span {
 div {
     height: 100%;
 }
+ footer {
+     padding-left: 20px;
+     height: 50%;
+     color: white;
+     font-family: 'Raleway', sans-serif;
+     font-style: italic;
+     font-size: small;
+ }
